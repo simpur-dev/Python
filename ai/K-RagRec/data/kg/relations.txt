@@ -1,0 +1,4 @@
+0	has_genre
+1	directed_by
+2	starring
+3	similar_to

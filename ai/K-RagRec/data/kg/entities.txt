@@ -1,0 +1,14 @@
+0	Toy Story	movie
+1	Jumanji	movie
+2	The Matrix	movie
+3	Inception	movie
+4	Interstellar	movie
+5	Animation	genre
+6	Adventure	genre
+7	Sci-Fi	genre
+8	Action	genre
+9	Christopher Nolan	director
+10	Lana Wachowski	director
+11	Tom Hanks	actor
+12	Leonardo DiCaprio	actor
+13	Matthew McConaughey	actor

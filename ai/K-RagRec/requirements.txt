@@ -1,0 +1,28 @@
+# K-RagRec Dependencies
+# Core
+torch>=2.0.0
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# Transformers & LLM
+transformers>=4.35.0
+sentence-transformers>=2.2.0
+accelerate>=0.24.0
+
+# Graph Neural Networks
+torch-geometric>=2.4.0
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+
+# Vector Search
+faiss-cpu>=1.7.4
+# Or for GPU: faiss-gpu>=1.7.4
+
+# Data Processing
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Optional: Quantization
+bitsandbytes>=0.41.0
