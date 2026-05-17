@@ -7,8 +7,8 @@ q = deque()
 q.append(start)
 
 dist = {}
-# dist[start] = 0
-#不会报错，因为这是在给字典新增内容
+dist[start] = 0
+#不会报错，因为这是在给字典新增内容，同时如果没有这一行，后面的dist[nx] = dist[x] + 1会报错
 
 # dist = {}
 # print(dist[2])
@@ -19,7 +19,7 @@ while q:
     x = q.popleft()
 
     if x == target:
-        print(dist[x])
+        print(dist[x])                                                                                                                                                                                                                                
 
         break
 
